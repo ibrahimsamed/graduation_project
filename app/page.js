@@ -16,7 +16,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          By İBRAHİM SAMED YALÇIN and ŞEMS ŞAMİL ÇAKIROĞLU{" "}
+          By İBRAHİM SAMED YALÇIN and ŞEMS ŞAMİL ÇAKIROĞLU &nbsp;
+          <code className={styles.code}></code>
         </a>
       </div>
       <div>
