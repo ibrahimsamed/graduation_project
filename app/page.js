@@ -8,7 +8,6 @@ export default function Home() {
         <h1>
           ISTANBUL TECHNICAL UNIVERSITY ELECTRONICS AND COMMINICATION GRADUATED
           PROJECT
-          <code className={styles.code}></code>
         </h1>
       </div>
       <div>
