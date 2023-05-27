@@ -17,25 +17,24 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>
+          <h3>
             by İBRAHİM SAMED <span>-&gt;</span>
-          </h2>
+          </h3>
           <p>GO WHO İS</p>
         </a>
-
         <a>
           <img src="itu.png" alt="itu" width={500} height={450} />
         </a>
-
+        <a></a>
         <a
           href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>
+          <h3>
             by ŞEMS ŞAMİL<span>-&gt;</span>
-          </h2>
+          </h3>
           <p>GO WHO İS</p>
         </a>
       </div>
