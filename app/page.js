@@ -89,6 +89,17 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+        <a
+          href="http://13.48.238.142:8501"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            proje denemesi <span>-&gt;</span>
+          </h2>
+          <p>buradan makine öğrenmesi metodumuzu çalıştırabilirsiniz .</p>
+        </a>
       </div>
     </main>
   );
