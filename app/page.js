@@ -65,7 +65,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://www.youtube.com/watch?v=2rV4rSUDcRw&ab_channel=AhmetKaya"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
