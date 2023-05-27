@@ -20,18 +20,8 @@ export default function Home() {
           By İBRAHİM SAMED YALÇIN and ŞEMS ŞAMİL ÇAKIROĞLU{" "}
         </a>
       </div>
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/itu.svg"
-          alt="itu Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div>
-          <img src="itu.png" alt="itu" />
-        </div>
+      <div>
+        <img src="itu.png" alt="itu" />
       </div>
 
       <div className={styles.grid}>
