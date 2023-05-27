@@ -10,28 +10,34 @@ export default function Home() {
           PROJECT
         </h1>
       </div>
-      <div>
-        <div className={styles.grid}>
-          <a
-            href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By İBRAHİM &nbsp;
-            <code className={styles.code}></code>
-          </a>
-        </div>
-        <img src="itu.png" alt="itu" width={500} height={450} />
-        <div>
-          <a
-            href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By ŞEMS &nbsp;
-            <code className={styles.code}></code>
-          </a>
-        </div>
+      <div className={styles.grid}>
+        <a
+          href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            by İBRAHİM SAMED <span>-&gt;</span>
+          </h2>
+          <p>GO WHO İS</p>
+        </a>
+
+        <a>
+          <img src="itu.png" alt="itu" width={500} height={450} />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            by ŞEMS ŞAMİL<span>-&gt;</span>
+          </h2>
+          <p>GO WHO İS</p>
+        </a>
       </div>
       <div className={styles.grid}>
         <a
