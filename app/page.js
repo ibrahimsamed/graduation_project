@@ -5,30 +5,29 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <h3>
+        <h1>
           ISTANBUL TECHNICAL UNIVERSITY ELECTRONICS AND COMMINICATION GRADUATED
           PROJECT&nbsp;
           <code className={styles.code}></code>
-        </h3>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By İBRAHİM SAMED YALÇIN ~~ and ~~ ŞEMS ŞAMİL ÇAKIROĞLU{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+        </h1>
       </div>
-
+      <div>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          By İBRAHİM SAMED YALÇIN ~~ and ~~ ŞEMS ŞAMİL ÇAKIROĞLU{" "}
+          <Image
+            src="/vercel.svg"
+            alt="Vercel Logo"
+            className={styles.vercelLogo}
+            width={100}
+            height={24}
+            priority
+          />
+        </a>
+      </div>
       <div className={styles.center}>
         <Image
           className={styles.logo}
