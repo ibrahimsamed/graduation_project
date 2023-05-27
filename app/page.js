@@ -21,7 +21,27 @@ export default function Home() {
         </a>
       </div>
       <div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            By İBRAHİM SAMED YALÇIN and ŞEMS ŞAMİL ÇAKIROĞLU &nbsp;
+            <code className={styles.code}></code>
+          </a>
+        </div>
         <img src="itu.png" alt="itu" />
+        <div>
+          <a
+            href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            By İBRAHİM SAMED YALÇIN and ŞEMS ŞAMİL ÇAKIROĞLU &nbsp;
+            <code className={styles.code}></code>
+          </a>
+        </div>
       </div>
 
       <div className={styles.grid}>
