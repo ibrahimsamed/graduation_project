@@ -42,7 +42,7 @@ export default function Home() {
       </div>
       <div className={styles.grid}>
         <a
-          href="https://www.memorial.com.tr/tani-ve-testler/elektromiyografi-emg-nedir"
+          href="https://ituedutr-my.sharepoint.com/:p:/r/personal/yalcini18_itu_edu_tr/_layouts/15/Doc.aspx?sourcedoc=%7BC0F1D2B8-1CE0-47C1-953B-FE1914D4299A%7D&file=B%C4%B0T%C4%B0RMEsunum%20(1).pptx&action=edit&mobileredirect=true"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
