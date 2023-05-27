@@ -17,7 +17,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          By İBRAHİM SAMED YALÇIN <br> </br>and <br></br> ŞEMS ŞAMİL ÇAKIROĞLU{" "}
+          By İBRAHİM SAMED YALÇIN and ŞEMS ŞAMİL ÇAKIROĞLU{" "}
           <Image
             src="/vercel.svg"
             alt="Vercel Logo"
