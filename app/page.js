@@ -53,7 +53,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://www.youtube.com/shorts/g47Ut2BAFu0"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
