@@ -18,7 +18,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h3>
-            by İBRAHİM SAMED <span>-&gt;</span>
+            by İBRAHİM SAMED YALÇIN<span>-&gt;</span>
           </h3>
           <p>GO WHO İS</p>
           <img src="ibrahim.png" alt="ibrahim" width={250} height={275} />
@@ -28,15 +28,16 @@ export default function Home() {
         </a>
         <a></a>
         <a
-          href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
+          href="https://www.linkedin.com/in/şemsşamilçakıroğlu/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h3>
-            by ŞEMS ŞAMİL<span>-&gt;</span>
+            by ŞEMS ŞAMİL ÇAKIROĞLU<span>-&gt;</span>
           </h3>
           <p>GO WHO İS</p>
+          <img src="sems.png" alt="sems" width={250} height={275} />
         </a>
       </div>
       <div className={styles.grid}>
@@ -81,9 +82,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            proje denemesi <span>-&gt;</span>
+            Testing<span>-&gt;</span>
           </h2>
-          <p>buradan makine öğrenmesi metodumuzu çalıştırabilirsiniz .</p>
+          <p>You can estimate your hand gesture</p>
         </a>
       </div>
     </main>
