@@ -6,18 +6,18 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <h1>
-          ISTANBUL TECHNICAL UNIVERSITY{"\n"}ELECTRONICS AND COMMINICATION
-          GRADUATED PROJECT
+          ISTANBUL TECHNICAL UNIVERSITY ELECTRONICS AND COMMINICATION GRADUATED
+          PROJECT
         </h1>
       </div>
       <div>
-        <div>
+        <div className={styles.grid}>
           <a
             href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By İBRAHİM SAMED YALÇIN and ŞEMS ŞAMİL ÇAKIROĞLU &nbsp;
+            By İBRAHİM &nbsp;
             <code className={styles.code}></code>
           </a>
         </div>
@@ -28,12 +28,11 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By İBRAHİM SAMED YALÇIN and ŞEMS ŞAMİL ÇAKIROĞLU &nbsp;
+            By ŞEMS &nbsp;
             <code className={styles.code}></code>
           </a>
         </div>
       </div>
-
       <div className={styles.grid}>
         <a
           href="https://www.memorial.com.tr/tani-ve-testler/elektromiyografi-emg-nedir"
