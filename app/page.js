@@ -5,18 +5,18 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
+        <h3>
           ISTANBUL TECHNICAL UNIVERSITY ELECTRONICS AND COMMINICATION GRADUATED
           PROJECT&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
+          <code className={styles.code}></code>
+        </h3>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By İBRAHİM SAMED YALÇIN \n and \n ŞEMS ŞAMİL ÇAKIROĞLU{" "}
+            By İBRAHİM SAMED YALÇIN ~~ and ~~ ŞEMS ŞAMİL ÇAKIROĞLU{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -75,20 +75,6 @@ export default function Home() {
             progress of deployment <span>-&gt;</span>
           </h2>
           <p>we explain what we do </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deployment <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
         </a>
         <a
           href="http://13.48.238.142:8501"
