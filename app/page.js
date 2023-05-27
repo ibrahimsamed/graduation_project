@@ -29,6 +29,9 @@ export default function Home() {
           height={37}
           priority
         />
+        <div>
+          <img src="itu.png" alt="itu" />
+        </div>
       </div>
 
       <div className={styles.grid}>
@@ -51,7 +54,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            FEATURE <span>-&gt;</span>
+            Feature of project <span>-&gt;</span>
           </h2>
           <p>What will we do</p>
         </a>
