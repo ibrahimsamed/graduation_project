@@ -21,7 +21,7 @@ export default function Home() {
             <code className={styles.code}></code>
           </a>
         </div>
-        <img src="itu.png" alt="itu" width={500} height={120} />
+        <img src="itu.png" alt="itu" width={500} height={450} />
         <div>
           <a
             href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
