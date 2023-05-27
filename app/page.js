@@ -32,7 +32,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/itu.svg"
-          alt="Next.js Logo"
+          alt="itu Logo"
           width={180}
           height={37}
           priority
