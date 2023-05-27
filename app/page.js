@@ -21,7 +21,7 @@ export default function Home() {
             by İBRAHİM SAMED <span>-&gt;</span>
           </h3>
           <p>GO WHO İS</p>
-          <img src="ibrahim.png" alt="ibrahim" width={50} height={45} />
+          <img src="ibrahim.png" alt="ibrahim" width={250} height={275} />
         </a>
         <a>
           <img src="itu.png" alt="itu" width={500} height={450} />
