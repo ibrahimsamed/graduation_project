@@ -16,22 +16,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By İBRAHİM SAMED YALÇIN{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            and By ŞEMS ŞAMİL ÇAKIROĞLU{" "}
+            By İBRAHİM SAMED YALÇIN \n and \n ŞEMS ŞAMİL ÇAKIROĞLU{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
