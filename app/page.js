@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div>
         <h1>
-          ISTANBUL TECHNICAL UNIVERSITY ELECTRONICS AND COMMINICATION GRADUATED
+          ISTANBUL TECHNICAL UNIVERSITY ELECTRONICS AND COMMUNICATION GRADUATED
           PROJECT
         </h1>
       </div>
