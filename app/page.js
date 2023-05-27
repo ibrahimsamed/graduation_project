@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div>
         <h1>
           ISTANBUL TECHNICAL UNIVERSITY ELECTRONICS AND COMMINICATION GRADUATED
           PROJECT
@@ -21,6 +21,7 @@ export default function Home() {
             by İBRAHİM SAMED <span>-&gt;</span>
           </h3>
           <p>GO WHO İS</p>
+          <img src="ibrahim.png" alt="ibrahim" width={50} height={45} />
         </a>
         <a>
           <img src="itu.png" alt="itu" width={500} height={450} />
@@ -48,7 +49,6 @@ export default function Home() {
           <h2>
             What is EMG signal <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
         </a>
 
         <a
