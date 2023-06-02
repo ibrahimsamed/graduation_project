@@ -76,7 +76,7 @@ export default function Home() {
           <p>we explain what we do </p>
         </a>
         <a
-          href="http://13.48.238.142:8501"
+          href="http://localhost:8501"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
