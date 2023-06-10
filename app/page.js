@@ -1,97 +1,48 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <>
       <div>
-        <h1>HAND GESTURE RECOGNIZE</h1>
+        <img src="/ss.gif" alt="Mountains with snow" className="alta" />
       </div>
-      <div className={styles.grid}>
-        <a
-          href="https://www.linkedin.com/in/ibrahim-samed-yalçın-4b6086185/"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h3>
-            by İBRAHİM SAMED YALÇIN<span>-&gt;</span>
-          </h3>
-          <p>GO WHO İS</p>
-          <img src="ibrahim.png" alt="ibrahim" width={250} height={275} />
-        </a>
-        <a>
-          <img src="itu.png" alt="itu" width={500} height={450} />
-        </a>
-        <a></a>
-        <a
-          href="https://www.linkedin.com/in/şemsşamilçakıroğlu/"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h3>
-            by ŞEMS ŞAMİL ÇAKIROĞLU<span>-&gt;</span>
-          </h3>
-          <p>GO WHO İS</p>
-          <img src="sems.png" alt="sems" width={250} height={275} />
-        </a>
-      </div>
-      <div className={styles.grid}>
-        <a
-          href="https://ituedutr-my.sharepoint.com/:p:/r/personal/yalcini18_itu_edu_tr/_layouts/15/Doc.aspx?sourcedoc=%7BC0F1D2B8-1CE0-47C1-953B-FE1914D4299A%7D&file=B%C4%B0T%C4%B0RMEsunum%20(1).pptx&action=edit&mobileredirect=true"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            What is EMG signal <span>-&gt;</span>
-          </h2>
-        </a>
 
-        <a
-          href="https://www.youtube.com/shorts/g47Ut2BAFu0"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Feature of project <span>-&gt;</span>
-          </h2>
-          <p>What will we do</p>
-        </a>
-
-        <a
-          href="https://www.youtube.com/watch?v=2rV4rSUDcRw&ab_channel=AhmetKaya"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            progress of deployment <span>-&gt;</span>
-          </h2>
-          <p>we explain what we do </p>
-        </a>
-        <a
-          href="http://localhost:8501"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Testing<span>-&gt;</span>
-          </h2>
-          <p>You can estimate your hand gesture</p>
-        </a>
+      <h1
+        style={{
+          paddingTop: "2vh",
+          fontFamily: "monospace",
+          fontSize: "3.5rem",
+          fontWeight: "bold",
+          textAlign: "center",
+        }}
+      >
+        HAND GESTURE RECOGNIZE
+      </h1>
+      <div>
+        <button className="home-button1">
+          <Link href="https://ituedutr-my.sharepoint.com/:p:/r/personal/yalcini18_itu_edu_tr/_layouts/15/Doc.aspx?sourcedoc=%7BC0F1D2B8-1CE0-47C1-953B-FE1914D4299A%7D&file=B%C4%B0T%C4%B0RMEsunum%20(1).pptx&action=edit&mobileredirect=true">
+            <h2>What is EMG signal</h2>
+          </Link>
+        </button>
+        {/* Diğer bileşen içeriği */}
+        <button className="home-button2">
+          <a href="https://www.youtube.com/shorts/g47Ut2BAFu0">
+            <h2>Feature of project</h2>
+          </a>
+        </button>
+        <button className="home-button3">
+          <a href="https://www.youtube.com/watch?v=2rV4rSUDcRw&ab_channel=AhmetKaya">
+            <h2>progress of deployment</h2>
+          </a>
+        </button>
+        <button className="home-button4">
+          <a href="http://localhost:8501">
+            <h2>Testing</h2>
+          </a>
+        </button>
       </div>
-    </main>
+    </>
   );
 }
-const styles = StyleSheet.create({
-  parentView: {
-    flex: 1,
-    flexDirection: "column",
-    justifyContent: "space-around",
-    alignItems: "flex-end",
-  },
-});
