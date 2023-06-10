@@ -87,8 +87,3 @@ export default function Home() {
     </main>
   );
 }
-submitButton: {
-    position: 'absolute',
-    bottom:0,
-    left:0,
-}
