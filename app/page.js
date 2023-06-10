@@ -87,3 +87,11 @@ export default function Home() {
     </main>
   );
 }
+const styles = StyleSheet.create({
+  parentView: {
+    flex: 1,
+    flexDirection: "column",
+    justifyContent: "space-around",
+    alignItems: "flex-end",
+  },
+});
