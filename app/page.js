@@ -5,10 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div>
-        <h1>
-          ISTANBUL TECHNICAL UNIVERSITY ELECTRONICS AND COMMUNICATION GRADUATED
-          PROJECT
-        </h1>
+        <h1>HAND GESTURE RECOGNIZE</h1>
       </div>
       <div className={styles.grid}>
         <a
@@ -89,4 +86,9 @@ export default function Home() {
       </div>
     </main>
   );
+}
+submitButton: {
+    position: 'absolute',
+    bottom:0,
+    left:0,
 }
