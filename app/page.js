@@ -38,7 +38,7 @@ export default function Home() {
           </a>
         </button>
         <button className="home-button4">
-          <a href="http://localhost:8501">
+          <a href="http://13.48.182.147">
             <h2>Testing</h2>
           </a>
         </button>
