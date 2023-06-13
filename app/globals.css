@@ -38,3 +38,8 @@ body {
   width: 200px;
   height: 80px;
 }
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
