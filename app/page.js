@@ -33,7 +33,7 @@ export default function Home() {
           </a>
         </button>
         <button className="home-button3">
-          <a href="https://www.youtube.com/watch?v=2rV4rSUDcRw&ab_channel=AhmetKaya">
+          <a href="https://www.youtube.com/watch?v=7rgiXEa0_jE&ab_channel=AmazonWebServices">
             <h2>progress of deployment</h2>
           </a>
         </button>
